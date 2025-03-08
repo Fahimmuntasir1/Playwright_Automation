@@ -1,0 +1,401 @@
+{
+  "role": "WebArea",
+  "name": "Fast and reliable end-to-end testing for modern web apps | Playwright",
+  "children": [
+    {
+      "role": "link",
+      "name": "Skip to main content"
+    },
+    {
+      "role": "link",
+      "name": "Playwright logo Playwright"
+    },
+    {
+      "role": "link",
+      "name": "Docs"
+    },
+    {
+      "role": "link",
+      "name": "API"
+    },
+    {
+      "role": "button",
+      "name": "Node.js",
+      "haspopup": "menu"
+    },
+    {
+      "role": "link",
+      "name": "Community"
+    },
+    {
+      "role": "link",
+      "name": "GitHub repository"
+    },
+    {
+      "role": "link",
+      "name": "Discord server"
+    },
+    {
+      "role": "button",
+      "name": "Switch between dark and light mode (currently dark mode)",
+      "description": "Switch between dark and light mode (currently dark mode)",
+      "disabled": true,
+      "pressed": true
+    },
+    {
+      "role": "button",
+      "name": "Search (Command+K)"
+    },
+    {
+      "role": "heading",
+      "name": "Playwright enables reliable end-to-end testing for modern web apps.",
+      "level": 1
+    },
+    {
+      "role": "link",
+      "name": "GET STARTED"
+    },
+    {
+      "role": "link",
+      "name": "Star microsoft/playwright on GitHub"
+    },
+    {
+      "role": "link",
+      "name": "69k+ stargazers on GitHub"
+    },
+    {
+      "role": "LineBreak",
+      "name": "\n"
+    },
+    {
+      "role": "LineBreak",
+      "name": "\n"
+    },
+    {
+      "role": "LineBreak",
+      "name": "\n"
+    },
+    {
+      "role": "image",
+      "name": "Browsers (Chromium, Firefox, WebKit)"
+    },
+    {
+      "role": "heading",
+      "name": "Any browser \u2022 Any platform \u2022 One API",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Cross-browser."
+    },
+    {
+      "role": "text",
+      "name": " Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox."
+    },
+    {
+      "role": "text",
+      "name": "Cross-platform."
+    },
+    {
+      "role": "text",
+      "name": " Test on Windows, Linux, and macOS, locally or on CI, headless or headed."
+    },
+    {
+      "role": "text",
+      "name": "Cross-language."
+    },
+    {
+      "role": "text",
+      "name": " Use the Playwright API in "
+    },
+    {
+      "role": "link",
+      "name": "TypeScript"
+    },
+    {
+      "role": "text",
+      "name": ", "
+    },
+    {
+      "role": "link",
+      "name": "JavaScript"
+    },
+    {
+      "role": "text",
+      "name": ", "
+    },
+    {
+      "role": "link",
+      "name": "Python"
+    },
+    {
+      "role": "text",
+      "name": ", "
+    },
+    {
+      "role": "link",
+      "name": ".NET"
+    },
+    {
+      "role": "text",
+      "name": ", "
+    },
+    {
+      "role": "link",
+      "name": "Java"
+    },
+    {
+      "role": "text",
+      "name": "."
+    },
+    {
+      "role": "text",
+      "name": "Test Mobile Web."
+    },
+    {
+      "role": "text",
+      "name": " Native mobile emulation of Google Chrome for Android and Mobile Safari. The same rendering engine works on your Desktop and in the Cloud."
+    },
+    {
+      "role": "heading",
+      "name": "Resilient \u2022 No flaky tests",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Auto-wait."
+    },
+    {
+      "role": "text",
+      "name": " Playwright waits for elements to be actionable prior to performing actions. It also has a rich set of introspection events. The combination of the two eliminates the need for artificial timeouts - the primary cause of flaky tests."
+    },
+    {
+      "role": "text",
+      "name": "Web-first assertions."
+    },
+    {
+      "role": "text",
+      "name": " Playwright assertions are created specifically for the dynamic web. Checks are automatically retried until the necessary conditions are met."
+    },
+    {
+      "role": "text",
+      "name": "Tracing."
+    },
+    {
+      "role": "text",
+      "name": " Configure test retry strategy, capture execution trace, videos, screenshots to eliminate flakes."
+    },
+    {
+      "role": "heading",
+      "name": "No trade-offs \u2022 No limits",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Browsers run web content belonging to different origins in different processes. Playwright is aligned with the modern browsers architecture and runs tests out-of-process. This makes Playwright free of the typical in-process test runner limitations."
+    },
+    {
+      "role": "text",
+      "name": "Multiple everything."
+    },
+    {
+      "role": "text",
+      "name": " Test scenarios that span multiple "
+    },
+    {
+      "role": "text",
+      "name": "tabs"
+    },
+    {
+      "role": "text",
+      "name": ", multiple "
+    },
+    {
+      "role": "text",
+      "name": "origins"
+    },
+    {
+      "role": "text",
+      "name": " and multiple "
+    },
+    {
+      "role": "text",
+      "name": "users"
+    },
+    {
+      "role": "text",
+      "name": ". Create scenarios with different contexts for different users and run them against your server, all in one test."
+    },
+    {
+      "role": "text",
+      "name": "Trusted events."
+    },
+    {
+      "role": "text",
+      "name": " Hover elements, interact with dynamic controls, produce trusted events. Playwright uses real browser input pipeline indistinguishable from the real user."
+    },
+    {
+      "role": "text",
+      "name": "Test frames, pierce Shadow DOM."
+    },
+    {
+      "role": "text",
+      "name": " Playwright selectors pierce shadow DOM and allow entering frames seamlessly."
+    },
+    {
+      "role": "heading",
+      "name": "Full isolation \u2022 Fast execution",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Browser contexts."
+    },
+    {
+      "role": "text",
+      "name": " Playwright creates a browser context for each test. Browser context is equivalent to a brand new browser profile. This delivers full test isolation with zero overhead. Creating a new browser context only takes a handful of milliseconds."
+    },
+    {
+      "role": "text",
+      "name": "Log in once."
+    },
+    {
+      "role": "text",
+      "name": " Save the authentication state of the context and reuse it in all the tests. This bypasses repetitive log-in operations in each test, yet delivers full isolation of independent tests."
+    },
+    {
+      "role": "heading",
+      "name": "Powerful Tooling",
+      "level": 3
+    },
+    {
+      "role": "link",
+      "name": "Codegen."
+    },
+    {
+      "role": "text",
+      "name": " Generate tests by recording your actions. Save them into any language."
+    },
+    {
+      "role": "link",
+      "name": "Playwright inspector."
+    },
+    {
+      "role": "text",
+      "name": " Inspect page, generate selectors, step through the test execution, see click points, explore execution logs."
+    },
+    {
+      "role": "link",
+      "name": "Trace Viewer."
+    },
+    {
+      "role": "text",
+      "name": " Capture all the information to investigate the test failure. Playwright trace contains test execution screencast, live DOM snapshots, action explorer, test source, and many more."
+    },
+    {
+      "role": "heading",
+      "name": "Chosen by companies and open source projects",
+      "level": 2
+    },
+    {
+      "role": "link",
+      "name": "VS Code"
+    },
+    {
+      "role": "link",
+      "name": "Bing"
+    },
+    {
+      "role": "link",
+      "name": "Outlook"
+    },
+    {
+      "role": "link",
+      "name": "Disney+ Hotstar"
+    },
+    {
+      "role": "link",
+      "name": "Material UI"
+    },
+    {
+      "role": "link",
+      "name": "ING"
+    },
+    {
+      "role": "link",
+      "name": "Adobe"
+    },
+    {
+      "role": "link",
+      "name": "React Navigation"
+    },
+    {
+      "role": "link",
+      "name": "Accessibility Insights"
+    },
+    {
+      "role": "text",
+      "name": "Learn"
+    },
+    {
+      "role": "link",
+      "name": "Getting started"
+    },
+    {
+      "role": "link",
+      "name": "Playwright Training"
+    },
+    {
+      "role": "link",
+      "name": "Learn Videos"
+    },
+    {
+      "role": "link",
+      "name": "Feature Videos"
+    },
+    {
+      "role": "text",
+      "name": "Community"
+    },
+    {
+      "role": "link",
+      "name": "Stack Overflow"
+    },
+    {
+      "role": "link",
+      "name": "Discord"
+    },
+    {
+      "role": "link",
+      "name": "Twitter"
+    },
+    {
+      "role": "link",
+      "name": "LinkedIn"
+    },
+    {
+      "role": "text",
+      "name": "More"
+    },
+    {
+      "role": "link",
+      "name": "GitHub"
+    },
+    {
+      "role": "link",
+      "name": "YouTube"
+    },
+    {
+      "role": "link",
+      "name": "Blog"
+    },
+    {
+      "role": "link",
+      "name": "Ambassadors"
+    },
+    {
+      "role": "text",
+      "name": "Copyright \u00a9 2025 Microsoft"
+    }
+  ]
+}
