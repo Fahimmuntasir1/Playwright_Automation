@@ -15,5 +15,24 @@ def test_search():
         sortFilter.click()
         sortFilter.select_option("sort__price-desc")
         page.wait_for_load_state("domcontentloaded")
+        # filter by storage
+        storage = page.locator("p", has_text="Storage")
+        expect(storage).to_be_visible()
+        page.get_by_label("256GB").click()
+        page.wait_for_load_state("domcontentloaded")
+        # filter by type
+        typee = page.locator("p", has_text="Type")
+        expect(typee).to_be_visible()
+        page.get_by_label("Active",exact=True).click()
+        page.wait_for_load_state("domcontentloaded")
+        # filter by sim
+        simType = page.locator("p", has_text="Sim")
+        expect(simType).to_be_visible()
+        page.get_by_label("Dual",exact=True).click()
+        page.wait_for_load_state("domcontentloaded")
+        # filter by Region
+        region = page.locator("p", has_text="Region")
+        expect(region).to_be_visible()
+        page.get_by_label("USA",exact=True).click()
         page.pause()
         page.close()
